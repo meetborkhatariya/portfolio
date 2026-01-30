@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -23,6 +23,7 @@ const Footer = () => {
                     <SocialLink href="https://github.com/meetborkhatariya" icon={Github} />
                     <SocialLink href="https://www.linkedin.com/in/meet-borkhatariya-36755030b/" icon={Linkedin} />
                     <SocialLink href="mailto:meetborkhatariya7@gmail.com" icon={Mail} />
+                    <SocialLink href="https://www.instagram.com/meet_borkhatariya_07/" icon={Instagram} />
                 </div>
             </div>
         </footer>

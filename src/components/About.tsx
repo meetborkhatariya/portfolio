@@ -1,5 +1,5 @@
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
-import { Terminal, MapPin, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { Terminal, MapPin, Download, Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import type { MouseEvent } from 'react';
 
 const About = () => {
@@ -76,6 +76,7 @@ const About = () => {
                         </div>
                         <div className="flex gap-4 relative z-10">
                             <a href="mailto:meetborkhatariya7@gmail.com" className="p-3 bg-white/5 border border-white/10 rounded-full hover:bg-white hover:text-black hover:scale-110 transition-all"><Mail size={20} /></a>
+                            <a href="https://www.instagram.com/meet_borkhatariya_07/" className="p-3 bg-white/5 border border-white/10 rounded-full hover:bg-white hover:text-black hover:scale-110 transition-all"><Instagram size={20} /></a>
                         </div>
                     </SpotlightCard>
 

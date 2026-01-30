@@ -1,24 +1,19 @@
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 const Preloader = ({ onComplete }: { onComplete: () => void }) => {
-    const [textIndex, setTextIndex] = useState(0);
-    const text = ["Happy", "Coding!"];
-
     useEffect(() => {
         // Simple sequence timing:
         // 0s: Start
         // 0.5s: "Meet" appears
         // 1.5s: "Borkhatariya" appears
         // 2.5s: Exit
-        const timer1 = setTimeout(() => setTextIndex(1), 1200);
-        const timer2 = setTimeout(() => {
+        const timer = setTimeout(() => {
             onComplete();
         }, 3000);
 
         return () => {
-            clearTimeout(timer1);
-            clearTimeout(timer2);
+            clearTimeout(timer);
         };
     }, [onComplete]);
 

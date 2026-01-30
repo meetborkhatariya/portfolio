@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Download, Instagram } from 'lucide-react';
 
 
 const Hero = () => {
@@ -73,6 +73,7 @@ const Hero = () => {
                                     <SocialLink href="https://github.com/meetborkhatariya" icon={Github} />
                                     <SocialLink href="https://www.linkedin.com/in/meet-borkhatariya-36755030b/" icon={Linkedin} />
                                     <SocialLink href="mailto:meetborkhatariya7@gmail.com" icon={Mail} />
+                                    <SocialLink href="https://www.instagram.com/meet_borkhatariya_07/" icon={Instagram} />
                                 </div>
                             </div>
                         </motion.div>

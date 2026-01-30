@@ -42,7 +42,7 @@ const Contact = () => {
                                     { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/meet-borkhatariya-36755030b/" },
                                     { name: "GitHub", icon: Github, url: "https://github.com/meetborkhatariya" },
                                     { name: "Twitter", icon: Twitter, url: "https://x.com/meet_9154" },
-                                    { name: "Instagram", icon: Instagram, url: "https://instagram.com/meet_9154" },
+                                    { name: "Instagram", icon: Instagram, url: "https://www.instagram.com/meet_borkhatariya_07/" },
                                 ].map((social) => (
                                     <li key={social.name}>
                                         <a
